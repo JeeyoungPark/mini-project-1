@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div p {
+    margin: 0;
+    font-size: 40px;
+    color: white;
+}
+
+button {
+    background-color: rgb(111, 111, 111);
+    height: 60px;
+    width: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(42, 37, 42);
+}
